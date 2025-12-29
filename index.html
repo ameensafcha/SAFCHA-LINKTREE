@@ -23,8 +23,6 @@
 
         body {
             min-height: 100vh;
-            /* font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; */
-
             font-family: 'Times New Roman', Times, serif;
             display: flex;
             justify-content: center; 
@@ -135,6 +133,12 @@
         .skip-link:focus {
             top: 0;
         }
+
+        @media (min-width: 768px) {
+            .container {
+                width: 36rem;
+            }
+        }
     </style>
 </head>
 
@@ -154,7 +158,7 @@
 
 
         <div class="links" aria-label="Social media and contact links">
-            <a href="https://example.com" aria-label="Shop Now - Visit our online store">
+            <a href="https://safcha.shop/" aria-label="Shop Now - Visit our online store">
                 <img src="./assets/icons/shopNow.svg" alt="Shopping cart icon" class="icon">
                 <span>Shop Now</span>
             </a>
@@ -164,17 +168,17 @@
                 <span>WhatsApp</span>
             </a>
 
-            <a href="https://example.com" aria-label="Instagram - Follow us on Instagram">
+            <a href="http://www.instagram.com/safcha.tea/" aria-label="Instagram - Follow us on Instagram">
                 <img src="./assets/icons/instagram.svg" alt="Instagram logo" class="icon">
                 <span>Instagram</span>
             </a>
 
-            <a href="https://example.com" aria-label="TikTok - Follow us on TikTok">
+            <a href="https://www.tiktok.com/@safcha.tea" aria-label="TikTok - Follow us on TikTok">
                 <img src="./assets/icons/tiktok.svg" alt="TikTok logo" class="icon">
                 <span>TikTok</span>
             </a>
 
-            <a href="https://example.com" aria-label="Inquiry - Send us an inquiry">
+            <a href="https://safcha.com/" aria-label="Inquiry - Send us an inquiry">
                 <img src="./assets/icons/inquiry.svg" alt="Inquiry form icon" class="icon">
                 <span>Inquiry</span>
             </a>
